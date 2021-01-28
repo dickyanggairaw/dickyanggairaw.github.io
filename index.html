@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Drive Thru Cell</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>DRIVE THRU CELL</h1>
+            <div class="information">
+                <a href="./index.html">Home</a>
+                <a href="./informasi.html">Informasi</a>
+            </div>
+        </div>
+        <nav>
+            <h3>Menyediakan berbagai jenis pulsa</h3>
+        </nav>
+        <div class="body">
+            <div id="box">
+                <img src="./img/telkomsel.jpg" alt="">
+            </div>
+            <div id="box">
+                    <label>Nomor: </label><br>
+                    <input class="nomor-hp" type="text" value="08" onkeyup="kartu()"><br><br>
+                    <label>Provider</label><br>
+                    <p class="provider"></p>
+                    <label>Jumlah</label><br>
+                    <input type="text" value="1" class="jumlah" onkeyup="totalHarga()">
+                    <br><br>
+                    <label>Nominal</label><br>
+                    <select id="nominal" onchange="totalHarga()">
+                        <option value="10000">10000</option>
+                        <option value="20000">20000</option>
+                        <option value="50000">50000</option>
+                        <option value="100000">100000</option>
+                    </select><br>
+                    <p>Total  : Rp. <span class="hasil"></span></p>
+                    <p>Diskon : Rp. <span class="diskon"></span></p>
+                    <p>Bayar  : Rp. <span class="bayar"></span></p>
+            </div>
+            <div id="box">
+                <img src="./img/indosat.png" alt="">
+            </div>
+            <div id="box">
+                <img src="./img/xl.png" alt="">
+            </div>
+            <div id="box">
+                <img src="./img/three.jpg" alt="">
+            </div>
+                <div id="box">
+                <img src="./img/smart.jpg" alt="">
+            </div>
+        </div>
+        <footer>
+            <p>created by me</p>
+        </footer>
+        <script src="./javascript.js">
+        </script>
+    </body>
+</html>
