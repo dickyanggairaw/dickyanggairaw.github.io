@@ -10,12 +10,13 @@ nav {
 h1{
     margin: 0 10px;
     display: inline-block;
-    width: 300px;
+    width: 24%;
+    font-size: 2.5vw;
 }
 a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 1.5vw;
     padding: 2px;
 }
 img {
@@ -23,21 +24,21 @@ img {
 }
 .information {
     display: inline-block;
-    width: 1000px;
+    width: 72%;
     text-align: right;
     text-decoration: none;
 }
 .header {
     position: sticky;
     top: 0;
-    height: 40px;
+    height: 3vw;
     background-color: black;
     color: white;
 }
 .body {
     background-color: white;
-    width: 950px;
-    margin: 0 200px;
+    width: 71vw;
+    margin: 0 14vw;
     height: 650px;
     border-radius: 30px;
 }
@@ -47,11 +48,14 @@ img {
 .jumlah {
     width: 100%;
 }
+#tulisan{
+    font-size: 3vh;
+}
 #box{
     display: inline-block;
-    margin: 20px 32px;
-    height: 300;
-    width: 250;
+    margin: 20px 2.3vw;
+    height: 50vh;
+    width: 18vw;
     vertical-align: middle;
 }
 #box p{
@@ -59,6 +63,7 @@ img {
     padding: 0 2px;
 }
 #box img{
+    padding-top: 20px;
     width: 100%;
 }
 footer{
