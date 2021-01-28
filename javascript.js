@@ -60,7 +60,7 @@
         }
         if(data.length > 13){
             output = "Nomor kelebihan kak"
-        }else if(data.length >= 10 && data.length <=13){
+        }else if(data.length >= 10 && data.length <=13 && data[0] === '0' && data[1] === '8'){
             for(let key in provider){
                 // console.log(provider[key])
                 for(let i = 0 ; i <provider[key].length ; i++){
