@@ -1,4 +1,4 @@
-
+document.getElementsByClassName("nomor-hp")[0].onkeyup = function() {kartu()};
 
     function kartu(){
         const data = document.getElementsByClassName("nomor-hp")[0].value
@@ -78,6 +78,8 @@
         document.getElementsByClassName("provider")[0].innerHTML = output
     }
     
+document.getElementsByClassName("jumlah")[0].onkeyup = function(){totalHarga()}
+document.getElementById("nominal").addEventListener("change", totalHarga)
 function totalHarga(){
     const jumlah = Number(document.getElementsByClassName("jumlah")[0].value)
     const nominal = Number(document.getElementById("nominal").value)

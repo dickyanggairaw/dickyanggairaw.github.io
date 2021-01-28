@@ -1,19 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: teal;
+    background-color: blue;
 }
 nav {
     text-align: center;
-    color: maroon;
+    color: white;
 }
 h1{
     margin: 0 10px;
-    display: inline;
+    display: inline-block;
+    width: 300px;
 }
 a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
     padding: 2px;
 }
@@ -22,7 +23,7 @@ img {
 }
 .information {
     display: inline-block;
-    width: 70%;
+    width: 1000px;
     text-align: right;
     text-decoration: none;
 }
@@ -30,20 +31,27 @@ img {
     position: sticky;
     top: 0;
     height: 40px;
-    background-color: crimson;
+    background-color: black;
+    color: white;
 }
 .body {
     background-color: white;
-    width: 60%;
-    margin: 0 20%;
-    height: 600px;
-    font-weight: bold;
+    width: 950px;
+    margin: 0 200px;
+    height: 650px;
+    border-radius: 30px;
+}
+.nomor-hp {
+    width: 100%;
+}
+.jumlah {
+    width: 100%;
 }
 #box{
     display: inline-block;
-    margin: 2% 4%;
+    margin: 20px 32px;
     height: 300;
-    width: 200;
+    width: 250;
     vertical-align: middle;
 }
 #box p{
@@ -55,11 +63,12 @@ img {
 }
 footer{
     text-align: center;
-    background-color: crimson;
+    background-color: black;
     font-family: Helvetica;
     margin-bottom: 0;
     height: 40px;
+    color: white;
 }
 p {
-    padding: 5px;
+    padding: 10px;
 }
