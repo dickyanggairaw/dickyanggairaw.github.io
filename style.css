@@ -10,7 +10,7 @@ body {
 nav {
     text-align: center;
     color: black;
-    font-size: 30px;
+    font-size: 27px;
     font-style: oblique;
     margin-bottom: 0;
 }
@@ -30,7 +30,12 @@ h1{
     height: auto;
     text-align: center;
     width: auto;
-    padding: 30px; 
+    padding: auto; 
+    margin: 35px;
+}
+.provider {
+    font-size: 30px;
+    font-style: italic;
 }
 .thanks {
     font-style: italic;
@@ -39,11 +44,11 @@ h1{
 #box{
     display: inline-block;
     height: auto;
-    width: 300px;
+    width: 400px;
     vertical-align: middle;
     background-color: white;
     border-radius: 20px;
-    padding: 40px 20px;
+    padding: 20px;
     font-size: 20px;
 }
 ul{
@@ -62,6 +67,11 @@ ul{
 #box input{
     font-size: 20px;
 }
+img{
+    display: inline-block;
+    height: 30px;
+    padding: 0 10px;
+}
 footer{
     text-align: center;
     background-color: black;
@@ -71,7 +81,9 @@ footer{
     color: white;
     position: sticky;
     bottom: 0;
+    padding: 10px;
 }
 p {
+    display: inline-block;
     padding: 10px;
 }

@@ -84,7 +84,14 @@ function totalHarga(){
     var li = document.createElement("li");
     const nominal = Number(document.getElementById("nominal").value)
     const kartu = document.getElementsByClassName("nomor-hp")[0].value
-    let output = `Pulsa dengan nomor ${kartu} sudah masuk sebesar ${nominal}`
+    let output =""
+    if(kartu.length > 13){
+        output = `Nomor masih kelebihan kak`
+    }else if(kartu.length > 10 ){
+        output = `Pulsa dengan nomor ${kartu} sudah masuk sebesar ${nominal}`
+    }else {
+        output = `Nomor masih salah kak`
+    }    
     var textnode = document.createTextNode(output)
 
     li.appendChild(textnode);
