@@ -82,7 +82,7 @@ document.getElementsByClassName("nomor-hp")[0].onkeyup = function() {kartu()};
 let hasil = document.getElementById("hasil").addEventListener("click", totalHarga)
 function totalHarga(){
     var li = document.createElement("li");
-    const nominal = document.getElementById("nominal").value
+    const nominal = Number(document.getElementById("nominal").value)
     const kartu = document.getElementsByClassName("nomor-hp")[0].value
     let output = `Pulsa dengan nomor ${kartu} sudah masuk sebesar ${nominal}`
     var textnode = document.createTextNode(output)
