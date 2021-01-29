@@ -51,7 +51,7 @@ h1{
     vertical-align: middle;
     background-color: white;
     border-radius: 20px;
-    padding: 20px 60px;
+    padding: 20px 40px;
     font-size: 20px;
 }
 ul{
@@ -80,7 +80,7 @@ footer{
     background-color: black;
     font-family: Helvetica;
     margin-bottom: 0;
-    height: 40px;
+    height: 35px;
     color: white;
     position: sticky;
     bottom: 0;
