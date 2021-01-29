@@ -76,24 +76,17 @@ document.getElementsByClassName("nomor-hp")[0].onkeyup = function() {kartu()};
             output = "Nomor yang anda masukan salah"
         }
         document.getElementsByClassName("provider")[0].innerHTML = output
+        return output
     }
     
-document.getElementsByClassName("jumlah")[0].onkeyup = function(){totalHarga()}
-document.getElementById("nominal").addEventListener("change", totalHarga)
+let hasil = document.getElementById("hasil").addEventListener("click", totalHarga)
 function totalHarga(){
-    const jumlah = Number(document.getElementsByClassName("jumlah")[0].value)
-    const nominal = Number(document.getElementById("nominal").value)
-    let diskon = 0
-    let output = 0
-    let bayar = 0
+    var li = document.createElement("li");
+    const nominal = document.getElementById("nominal").value
+    const kartu = document.getElementsByClassName("nomor-hp")[0].value
+    let output = `Pulsa dengan nomor ${kartu} sudah masuk sebesar ${nominal}`
+    var textnode = document.createTextNode(output)
 
-    if(jumlah >= 10){
-        diskon = jumlah * nominal * 0.1
-    }
-    output = jumlah * nominal
-    bayar = output - diskon
-
-    document.getElementsByClassName("hasil")[0].innerHTML = output
-    document.getElementsByClassName("diskon")[0].innerHTML = diskon
-    document.getElementsByClassName("bayar")[0].innerHTML = bayar
+    li.appendChild(textnode);
+    document.getElementById("list-hasil").appendChild(li);
 }

@@ -1,32 +1,16 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: blue;
+    background-color: gainsboro;
 }
 nav {
     text-align: center;
-    color: white;
+    color: black;
 }
 h1{
     margin: 0 10px;
-    display: inline-block;
-    width: 24%;
     font-size: 2.5vw;
-}
-a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5vw;
-    padding: 2px;
-}
-img {
-    display: inline-block;
-}
-.information {
-    display: inline-block;
-    width: 72%;
-    text-align: right;
-    text-decoration: none;
+    text-align: center;
 }
 .header {
     position: sticky;
@@ -36,38 +20,26 @@ img {
     color: white;
 }
 .body {
-    background-color: white;
-    width: 71vw;
-    margin: 0 14vw;
     height: 50vw;
     border-radius: 30px;
-}
-.nomor-hp {
-    width: 100%;
-}
-.jumlah {
-    width: 100%;
-}
-#tulisan{
-    font-size: 1vw;
-}
-#tulisan input {
-    height: 1.7vw;
+    text-align: center;
 }
 #box{
     display: inline-block;
     margin: 20px 2.3vw;
-    height: 18vw;
-    width: 18vw;
+    height: 350px;
+    width: 250px;
     vertical-align: middle;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+ul{
+    text-align: justify;
 }
 #box p{
-    text-align: left;
+    text-align: center;
     padding: 0 2px;
-}
-#box img{
-    padding-top: 20px;
-    width: 100%;
 }
 footer{
     text-align: center;
