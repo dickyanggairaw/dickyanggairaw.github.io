@@ -10,6 +10,9 @@ body {
 nav {
     text-align: center;
     color: black;
+    font-size: 30px;
+    font-style: oblique;
+    margin-bottom: 0;
 }
 h1{
     margin: 0 10px;
@@ -25,26 +28,39 @@ h1{
 }
 .body {
     height: auto;
-    border-radius: 30px;
     text-align: center;
     width: auto;
-    padding: 50px;
+    padding: 30px; 
+}
+.thanks {
+    font-style: italic;
+    font-size: 30px;
 }
 #box{
     display: inline-block;
-    height: 350px;
-    width: 250px;
+    height: auto;
+    width: 300px;
     vertical-align: middle;
     background-color: white;
     border-radius: 20px;
-    padding: 10px;
+    padding: 40px 20px;
+    font-size: 20px;
 }
 ul{
     text-align: justify;
 }
+#nominal {
+    font-size: 20px;
+}
+#hasil {
+    font-size: 20px;
+}
 #box p{
     text-align: center;
     padding: 0 2px;
+}
+#box input{
+    font-size: 20px;
 }
 footer{
     text-align: center;

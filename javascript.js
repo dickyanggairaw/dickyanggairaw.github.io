@@ -56,7 +56,7 @@ document.getElementsByClassName("nomor-hp")[0].onkeyup = function() {kartu()};
     }
         let output = ""
         if(data.length < 10){
-            output = "Nomor Anda kurang"
+            output = "Nomor kurang kak"
         }
         if(data.length > 13){
             output = "Nomor kelebihan kak"
@@ -73,7 +73,7 @@ document.getElementsByClassName("nomor-hp")[0].onkeyup = function() {kartu()};
             }
         }
         if(!output){
-            output = "Nomor yang anda masukan salah"
+            output = "Nomor salah kak"
         }
         document.getElementsByClassName("provider")[0].innerHTML = output
         return output
