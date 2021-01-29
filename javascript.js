@@ -87,7 +87,7 @@ function totalHarga(){
     let output =""
     if(kartu.length > 13){
         output = `Nomor masih kelebihan kak`
-    }else if(kartu.length > 10 ){
+    }else if(kartu.length >= 10 ){
         output = `Pulsa dengan nomor ${kartu} sudah masuk sebesar ${nominal}`
     }else {
         output = `Nomor masih salah kak`
