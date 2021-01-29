@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: gainsboro;
+    width: auto;
+    vertical-align: middle;
 }
 nav {
     text-align: center;
@@ -9,24 +11,24 @@ nav {
 }
 h1{
     margin: 0 10px;
-    font-size: 2.5vw;
     text-align: center;
 }
 .header {
     position: sticky;
     top: 0;
-    height: 3vw;
+    height: 35px;
     background-color: black;
     color: white;
 }
 .body {
-    height: 50vw;
+    height: auto;
     border-radius: 30px;
     text-align: center;
+    width: auto;
+    padding: 50px;
 }
 #box{
     display: inline-block;
-    margin: 20px 2.3vw;
     height: 350px;
     width: 250px;
     vertical-align: middle;
@@ -48,8 +50,8 @@ footer{
     margin-bottom: 0;
     height: 40px;
     color: white;
-    bottom: 0;
     position: sticky;
+    bottom: 0;
 }
 p {
     padding: 10px;
